@@ -1,3 +1,25 @@
+#ENGLISH
+# DDTips — Native Android
+
+Android rewrite of the original Flutter app using Kotlin and Jetpack Compose.
+
+## Included Features
+
+- Random display of D&D tips and manual navigation;
+- Configurable automatic rotation from 1 to 30 seconds;
+- Editing, adding, deleting, and locally saving the tips list;
+- Importing a text file with tips separated by the `|` character;
+- Original background image and font included in the Android resources.
+
+## Opening and Building
+
+Open this folder in Android Studio, wait for Gradle synchronization, and run the `app` module on an Android device (minimum Android 8.0 / API 26).
+
+The package ID retains the one from the Flutter configuration: `com.example.ddtips2`. Replace it with a final identifier before publishing the app.
+
+The Flutter button for selecting a background image had no actual implementation: this version does not expose it to avoid presenting a non-functional feature.
+
+#ITALIANO
 # DDTips — Android nativo
 
 Riscrittura Android dell'app Flutter originale con Kotlin e Jetpack Compose.
